@@ -11,3 +11,6 @@ Developped with Xamarin 5.5.4
 1. Place a text file named "awConfig.cfg " besides AppWatcher.app
 2. Write a path to application that you want to launch inside "awConfig.cfg" as below
   appToLaunch=FULLPATH_TO_APP
+
+# Just need binaries?
+https://dl.dropboxusercontent.com/u/395514/bin/AppWatcher.zip
