@@ -1,0 +1,7 @@
+*.exe
+*.mdb
+*.app
+*.dll
+*.log
+Debug/log/
+Release/log/
