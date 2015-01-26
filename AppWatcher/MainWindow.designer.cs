@@ -13,7 +13,7 @@ namespace AppWatcher
 	partial class MainWindowController
 	{
 		[Outlet]
-		MonoMac.AppKit.NSButtonCell quitBtn { get; set; }
+		MonoMac.AppKit.NSButton quitBtn { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
