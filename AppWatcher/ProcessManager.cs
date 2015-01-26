@@ -52,7 +52,7 @@ namespace AppWatcher
 				Directory.CreateDirectory (logDir);
 
 			StreamWriter sw = new StreamWriter (Path.Combine (logDir, logFilename), true, System.Text.Encoding.Unicode);
-			sw.WriteLine (appProcess.ProcessName + " quite on " + DateTime.Now);
+			sw.WriteLine (appProcess.ProcessName + " quite on " + DateTime.Now + ", memory usage: " + appProcess.PrivateMemorySize64);
 			sw.Close ();
 		}
 
